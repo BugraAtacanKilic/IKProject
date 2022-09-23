@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IKProject.Core\IKProject.Core.csproj" />
+    <ProjectReference Include="..\IKProject.DAL\IKProject.DAL.csproj" />
+    <ProjectReference Include="..\IKProject.Model\IKProject.Model.csproj" />
+    <ProjectReference Include="..\IKProject.ViewModel\IKProject.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

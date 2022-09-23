@@ -1,0 +1,12 @@
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Release\net5.0\IKProject.Core.deps.json
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Release\net5.0\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Release\net5.0\ref\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Release\net5.0\IKProject.Core.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\IKProject.Core.csproj.AssemblyReference.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\IKProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\IKProject.Core.AssemblyInfoInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\IKProject.Core.AssemblyInfo.cs
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\IKProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\ref\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Release\net5.0\IKProject.Core.pdb

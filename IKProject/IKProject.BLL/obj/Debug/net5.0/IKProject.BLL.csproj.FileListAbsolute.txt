@@ -1,0 +1,42 @@
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.BLL.deps.json
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.BLL.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\ref\IKProject.BLL.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.BLL.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.DAL.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Model.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Core.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.DAL.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Model.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.ViewModel.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.csproj.AssemblyReference.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.AssemblyInfoInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.AssemblyInfo.cs
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.csproj.CopyComplete
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\ref\IKProject.BLL.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.BLL.deps.json
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.BLL.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\ref\IKProject.BLL.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.BLL.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Core.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.DAL.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Model.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.ViewModel.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Core.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.DAL.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.Model.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\bin\Debug\net5.0\IKProject.ViewModel.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.csproj.AssemblyReference.cache
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.AssemblyInfoInputs.cache
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.AssemblyInfo.cs
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.csproj.CoreCompileInputs.cache
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.csproj.CopyComplete
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\ref\IKProject.BLL.dll
+D:\Windows 10\Desktop\IKProject\IKProject.BLL\obj\Debug\net5.0\IKProject.BLL.pdb

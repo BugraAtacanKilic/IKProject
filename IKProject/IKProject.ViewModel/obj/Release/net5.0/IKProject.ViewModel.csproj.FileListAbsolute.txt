@@ -1,0 +1,12 @@
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Release\net5.0\IKProject.ViewModel.deps.json
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Release\net5.0\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Release\net5.0\ref\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Release\net5.0\IKProject.ViewModel.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\IKProject.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\IKProject.ViewModel.AssemblyInfoInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\IKProject.ViewModel.AssemblyInfo.cs
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\IKProject.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\ref\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\IKProject.ViewModel.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Release\net5.0\IKProject.ViewModel.csproj.AssemblyReference.cache

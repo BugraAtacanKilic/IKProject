@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Mail;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IKProject.BLL.Concrete.SendMailServiceBLL
+{
+    class SendMailService
+    {
+        public static bool SendMail(string userName, string userMailAddress, string tc, string sifre)
+        {
+            MailMessage msg = new MailMessage();
+            msg.To.Add(userMailAddress);
+            msg.Subject = "IKYonetim Portalı Activasyon Maili";
+            msg.IsBodyHtml = true;
+            msg.Body = string.Format("<!DOCTYPE html> <html> <head> <meta charset='utf-8'/> <title></title> </head> <body> <h1> Aktivasyon Maili </h1> <p> Merhaba {0} </p> <p> Sitemize Kayıt Olduğunuz İçin Teşekkür Ederiz </p> <br /> <p> Kayıtınızı aktifleştirmek için <a href='http://localhost:33077/User/ActivedUser/{1}'>linke</a> tıklayınız. </p> Aktivasyon işlemini gerçekleştirdikten sonra giriş yapmak için şifreniz:"+sifre+" </body> </html>", userName, tc);
+
+            msg.From = new MailAddress("cinemasystem@sinemamekani.com");
+            SmtpClient smtp = new SmtpClient();
+            smtp.Port = 587;
+            smtp.Host = "smtp.radorehosting.com";
+            smtp.EnableSsl = true;
+            smtp.UseDefaultCredentials = false;
+            smtp.Credentials = new NetworkCredential("bilgeadam@sinemamekani.com", "Asd*123456");
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+
+            try
+            {
+                smtp.Send(msg);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+
+        }
+    }
+}

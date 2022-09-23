@@ -1,0 +1,116 @@
+﻿@model List<UserMainPageVM>
+@{
+    Layout = "_Layout";
+}
+
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Aktif Personeller</h5>
+
+
+                    <!-- Table with stripped rows -->
+                    <table class="table datatable">
+                        <thead>
+                            <tr>
+                                <th scope="col">Ad Soyad</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Departman</th>
+                                <th scope="col">Ünvan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (UserMainPageVM item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="~/assets/img/@item.PhotoPath"
+                                                 alt=""
+                                                 style="width: 45px; height: 45px"
+                                                 class="rounded-circle" />
+                                            <div class="ms-3">
+                                                <p class="fw-bold mb-1">@item.AdSoyad</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td><a href="mailto:@item.Mail">@item.Mail</a></td>
+                                    <td>@item.Departman</td>
+                                    <td>@item.Unvan</td>
+                                    <td>
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+
+                                            <a asp-controller="admin" asp-action="userdetail" asp-route-id="@item.ID">
+                                                <button type="button" class="btn btn-primary btn-sm">Detay</button>
+                                            </a> &nbsp;
+
+                                            <a asp-controller="admin" asp-action="updateuser" asp-route-id="@item.ID">
+                                                <button type="button" class="btn btn-primary btn-sm">Güncelle</button>
+                                            </a>
+                                        </div>
+
+                                    </td>
+                                </tr>
+
+                            }
+
+
+                        </tbody>
+                    </table>
+                    <!-- End Table with stripped rows -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+@{
+    int kalanHak = (@ViewBag.ActiveUsersLimit - @ViewBag.ActiveUsersNo);
+}
+
+<!-- Right side columns -->
+<div class="col-lg2">
+
+    <!-- Website Traffic -->
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Kalan Aktif Kullanıcı Hakkı/Aktif Kullanıcı Hakkı ~ @ViewBag.ActiveUsersNo/@ViewBag.ActiveUsersLimit</h3>
+
+            <!-- Pie Chart -->
+            <canvas id="pieChart" style="max-height: 400px; display: block; box-sizing: border-box; height: 400px; width: 719px;" width="719" height="400"></canvas>
+            <script>
+
+                        document.addEventListener("DOMContentLoaded", () => {
+                            new Chart(document.querySelector('#pieChart'), {
+                                type: 'pie',
+                                data: {
+                                    labels: [
+                                        'Aktif Kullanıcı Hakkı: @ViewBag.ActiveUsersNo',
+                                        'Kalan Aktif Kullanıcı Hakkı: @kalanHak'
+                                    ],
+                                    datasets: [{
+                                        label: 'My First Dataset',
+                                        data: [@ViewBag.ActiveUsersNo, @ViewBag.ActiveUsersLimit - @ViewBag.ActiveUsersNo],
+                                        backgroundColor: [
+                                            'rgb(54, 162, 235)',
+                                            'rgb(255, 205, 86)'
+                                        ],
+                                        hoverOffset: 4
+                                    }]
+                                }
+                            });
+                        });
+            </script>
+        </div>
+    </div><!-- End Website Traffic -->
+</div>
+
+
+
+
+

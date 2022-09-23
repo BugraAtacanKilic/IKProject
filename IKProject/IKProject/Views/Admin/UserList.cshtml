@@ -1,0 +1,40 @@
+﻿@model List<UserListVM>
+
+@{
+    Layout = "_Layout";
+}
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Personel Listesi</h5>
+
+
+                    <!-- Table with stripped rows -->
+                    <table class="table datatable">
+                        <thead>
+                            <tr>
+                                <th scope="col">İsim Soyisim</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Doğum Tarihi</th>
+                                <th scope="col">Departman</th>
+                                <th scope="col">Ünvan</th>
+                                <th scope="col">Telefon</th>
+                                <th scope="col">İşe Giriş Tarihi</th>
+                                <th scope="col">Aktif / Pasif</th>
+                                
+
+                            </tr>
+                        </thead>
+                        <partial name="_userListData" model="@Model">
+                    </table>
+                    <!-- End Table with stripped rows -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

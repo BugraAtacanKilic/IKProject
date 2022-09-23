@@ -1,0 +1,24 @@
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Debug\net5.0\IKProject.Core.deps.json
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Debug\net5.0\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Debug\net5.0\ref\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\bin\Debug\net5.0\IKProject.Core.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.csproj.AssemblyReference.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.AssemblyInfoInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.AssemblyInfo.cs
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\ref\IKProject.Core.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.Core\bin\Debug\net5.0\IKProject.Core.deps.json
+D:\Windows 10\Desktop\IKProject\IKProject.Core\bin\Debug\net5.0\IKProject.Core.dll
+D:\Windows 10\Desktop\IKProject\IKProject.Core\bin\Debug\net5.0\ref\IKProject.Core.dll
+D:\Windows 10\Desktop\IKProject\IKProject.Core\bin\Debug\net5.0\IKProject.Core.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.csproj.AssemblyReference.cache
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.AssemblyInfoInputs.cache
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.AssemblyInfo.cs
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.csproj.CoreCompileInputs.cache
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.dll
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\ref\IKProject.Core.dll
+D:\Windows 10\Desktop\IKProject\IKProject.Core\obj\Debug\net5.0\IKProject.Core.pdb

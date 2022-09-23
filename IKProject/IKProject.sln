@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IKProject", "IKProject\IKProject.csproj", "{BF9AC9F9-ADDC-4783-B305-91D8EAC73FB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IKProject.BLL", "IKProject.BLL\IKProject.BLL.csproj", "{65E298A8-6D40-4C5C-B1A0-E90B29F751A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IKProject.Core", "IKProject.Core\IKProject.Core.csproj", "{A5BFABB0-2057-405E-B257-515ED0FCE297}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IKProject.Model", "IKProject.Model\IKProject.Model.csproj", "{8C51EAE7-D5F1-4F1E-90BE-7BFE6F9470E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IKProject.DAL", "IKProject.DAL\IKProject.DAL.csproj", "{22F23C39-133C-4B2F-AB01-DE5F20DAC822}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IKProject.ViewModel", "IKProject.ViewModel\IKProject.ViewModel.csproj", "{28638203-EB8F-48A6-BDD8-38C26EAC3162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9AC9F9-ADDC-4783-B305-91D8EAC73FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9AC9F9-ADDC-4783-B305-91D8EAC73FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9AC9F9-ADDC-4783-B305-91D8EAC73FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9AC9F9-ADDC-4783-B305-91D8EAC73FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E298A8-6D40-4C5C-B1A0-E90B29F751A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E298A8-6D40-4C5C-B1A0-E90B29F751A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E298A8-6D40-4C5C-B1A0-E90B29F751A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E298A8-6D40-4C5C-B1A0-E90B29F751A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BFABB0-2057-405E-B257-515ED0FCE297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BFABB0-2057-405E-B257-515ED0FCE297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BFABB0-2057-405E-B257-515ED0FCE297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BFABB0-2057-405E-B257-515ED0FCE297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C51EAE7-D5F1-4F1E-90BE-7BFE6F9470E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C51EAE7-D5F1-4F1E-90BE-7BFE6F9470E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C51EAE7-D5F1-4F1E-90BE-7BFE6F9470E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C51EAE7-D5F1-4F1E-90BE-7BFE6F9470E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F23C39-133C-4B2F-AB01-DE5F20DAC822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F23C39-133C-4B2F-AB01-DE5F20DAC822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F23C39-133C-4B2F-AB01-DE5F20DAC822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F23C39-133C-4B2F-AB01-DE5F20DAC822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28638203-EB8F-48A6-BDD8-38C26EAC3162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28638203-EB8F-48A6-BDD8-38C26EAC3162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28638203-EB8F-48A6-BDD8-38C26EAC3162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28638203-EB8F-48A6-BDD8-38C26EAC3162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A826E2C8-E908-4C8C-AA5A-FC750553B8B6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/hasanserhatbayar
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IKProject\\IKProject.csproj
+		SccProjectName1 = IKProject
+		SccLocalPath1 = IKProject
+		SccProjectUniqueName2 = IKProject.BLL\\IKProject.BLL.csproj
+		SccProjectName2 = IKProject.BLL
+		SccLocalPath2 = IKProject.BLL
+		SccProjectUniqueName3 = IKProject.Core\\IKProject.Core.csproj
+		SccProjectName3 = IKProject.Core
+		SccLocalPath3 = IKProject.Core
+		SccProjectUniqueName4 = IKProject.Model\\IKProject.Model.csproj
+		SccProjectName4 = IKProject.Model
+		SccLocalPath4 = IKProject.Model
+		SccProjectUniqueName5 = IKProject.DAL\\IKProject.DAL.csproj
+		SccProjectName5 = IKProject.DAL
+		SccLocalPath5 = IKProject.DAL
+		SccProjectUniqueName6 = IKProject.ViewModel\\IKProject.ViewModel.csproj
+		SccProjectName6 = IKProject.ViewModel
+		SccLocalPath6 = IKProject.ViewModel
+	EndGlobalSection
+EndGlobal

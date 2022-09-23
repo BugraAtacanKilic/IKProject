@@ -1,0 +1,204 @@
+﻿@{
+//int rolTypeId = ViewContext.HttpContext.Session.GetInt32("rolTypeID").Value;
+
+ }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>@TempData["CompanyName"]</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="~/assets/img/@TempData["CompanyPhoto"]" rel="icon">
+    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="~/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="~/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet">
+
+  
+    <script>
+        function RedirectAfterDelayFn() {
+            var seconds = 3;
+            var dvCountDown = document.getElementById("CountDown");
+            var lblCount = document.getElementById("CountDownLabel");
+            dvCountDown.style.display = "block";
+            lblCount.innerHTML = seconds;
+            setInterval(function () {
+                seconds--;
+                lblCount.innerHTML = seconds;
+                if (seconds == 0) {
+                    dvCountDown.style.display = "none";
+                    window.location.href = '@Url.Action("Index", "Admin")';
+                }
+            }, 1000);
+        }
+    </script>
+</head>
+
+<body onload="RedirectAfterDelayFn()">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a asp-controller="admin" asp-action="Index" class="logo d-flex align-items-center">
+                <img src="~/assets/img/@TempData["CompanyPhoto"]" alt="@TempData["CompanyName"]" />
+                <span class="d-none d-lg-block">@TempData["CompanyName"]</span>
+
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <nav class="navbar navbar-expand-lg p-5 ">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="admin" asp-action="Index">
+                            <i class="bi bi-grid"></i> Ana Sayfa
+                        </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="admin" asp-action="adduser">
+                            <i class="bi bi-person-plus"></i> Personel Ekle
+                        </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="admin" asp-action="userlist">
+                            <i class="bi bi-menu-button-wide"></i> Personel Listesi
+                        </a>
+                    </li>
+                </ul>
+
+                <ul style="position: fixed; right: 0;" class="nav navbar-nav navbar-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="admin" asp-action="Index">
+                            <i class="bi bi-box-arrow-in-right"></i>
+                            Çıkış Yap
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav><!-- End Icons Navigation -->
+    </header><!-- End Header -->
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+
+            <li class="nav-item text-center">
+                <img src="~/assets/img/@TempData["EmployePhoto"]" alt="Profile" class="rounded-circle">
+                <br />
+                <span class="badge bg-primary"><i class="bi bi-star me-1"></i> @TempData["EmployeName"]</span>
+
+                <span class="badge bg-info text-dark"><i class="bi bi-info-circle me-1"></i> @TempData["CompanyName"]</span>
+
+
+                <h6>@*@TempData["EmployeName"]*@</h6>
+                <h6>@*@TempData["CompanyName"]*@</h6>
+
+            </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link " asp-controller="admin" asp-action="Index">
+                    <i class="bi bi-grid"></i>
+                    <span>Ana Sayfa</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-person"></i><span>Personel</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a class="nav-link" asp-controller="admin" asp-action="adduser">
+                            <i class="bi bi-circle"></i><span>Personel Ekle</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" asp-controller="admin" asp-action="userlist">
+                            <i class="bi bi-circle"></i><span>Personel Listesi</span>
+                        </a>
+                    </li>
+                </ul>
+            </li><!-- End Personel Nav -->
+            <!--
+            <li class="nav-heading">Kişisel</li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="users-profile.html">
+                    <i class="bi bi-person"></i>
+                    <span>Profil</span>
+                </a>
+            </li><!-- End Profile Page Nav -->
+            <!--
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="pages-faq.html">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Bilgilendirme</span>
+                </a>
+            </li><!-- End F.A.Q Page Nav -->
+            <!--
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="pages-contact.html">
+                    <i class="bi bi-envelope"></i>
+                    <span>İletişim</span>
+                </a>
+            </li><!-- End Contact Page Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="admin" asp-action="Index">
+                    <i class="bi bi-box-arrow-in-right"></i>
+                    <span>Çıkış Yap</span>
+                </a>
+            </li><!-- End Login Page Nav -->
+
+        </ul>
+    </aside><!-- End Sidebar-->
+
+    <main id="main" class="main">
+        @RenderBody()
+    </main>
+
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="~/assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/vendor/chart.js/chart.min.js"></script>
+    <script src="~/assets/vendor/echarts/echarts.min.js"></script>
+    <script src="~/assets/vendor/quill/quill.min.js"></script>
+    <script src="~/assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="~/assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="~/assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets/js/main.js"></script>
+
+</body>
+</html>
+
+
+
+

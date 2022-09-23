@@ -1,0 +1,97 @@
+﻿@model UserUpdateVM
+@{
+    Layout = "_Layout";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div style="color: darkorchid; display: none " id="CountDown" >
+        @TempData["SuccessMessage"]. Ana sayfaya yönlendiriliyorsunuz.
+        <br />
+        <span id="CountDownLabel"></span> saniye.
+    </div>
+}
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Personel Bilgileri</h5>
+
+                    <!-- General Form Elements -->
+                    <form asp-action="UpdateUser">
+                        <div class="row mb-3">
+                            <label asp-for="Name"></label> <br />
+                            <input required asp-for="Name" class="form-control" id="f4" />
+                            <span asp-validation-for="Name" class="form-text text-muted"></span>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="Surname"></label> <br />
+                            <input required asp-for="Surname" class="form-control" id="f4" />
+                            <span asp-validation-for="Surname" class="form-text text-muted"></span>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label asp-for="BirthDate"></label> <br />
+                            <input required type="date" asp-for="BirthDate" class="form-control" id="f4" /> <br />
+                            <span asp-validation-for="BirthDate" class="form-text text-muted"></span>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="StartDate"></label> <br />
+                            <input required type="date" asp-for="StartDate" class="form-control" id="f4" /> <br />
+                            <span asp-validation-for="StartDate" class="form-text text-muted"></span>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="EndDate"></label> <br />
+                            <input required type="date" asp-for="EndDate" class="form-control" id="f4" /> <br />
+                            <span asp-validation-for="EndDate" class="form-text text-muted"></span>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="Title"></label> <br />
+                            <input required asp-for="Title" class="form-control" id="f4" /> <br />
+                            <span asp-validation-for="Title" class="form-text text-muted"></span>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="DepartmentID"></label> <br />
+                            <select asp-for="DepartmentID" class="form-control" asp-items="ViewBag.DepartmentID"></select>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="PhoneNumber"></label> <br />
+                            <div class="input-group">
+                                <span class="input-group-addon left"><i class="glyphicon glyphicon-earphone"></i> </span>
+                                <input required asp-for="PhoneNumber" type="tel" class="form-control" id="f14" />
+                                <span asp-validation-for="PhoneNumber" class="form-text text-muted"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="Adress"></label> <br />
+                            <textarea required asp-for="Adress" class="form-control" id="f4"></textarea> <br />
+                            <span asp-validation-for="Adress" class="form-text text-muted"></span>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="IsActive"></label> <br />
+                            <div class="col-sm-10">
+                                <select asp-for="IsActive" class="form-control" id="f4">
+                                    <option value="true">Aktif</option>
+                                    <option value="false">Pasif</option>
+                                </select>
+                                <span asp-validation-for="IsActive" class="form-text text-muted"></span> <br />
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-success">Güncelle</button>
+                                </div>
+                            </div>
+
+                    </form><!-- End General Form Elements -->
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>

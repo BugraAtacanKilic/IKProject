@@ -1,0 +1,24 @@
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Debug\net5.0\IKProject.ViewModel.deps.json
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Debug\net5.0\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Debug\net5.0\ref\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\bin\Debug\net5.0\IKProject.ViewModel.pdb
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.csproj.AssemblyReference.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.AssemblyInfoInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.AssemblyInfo.cs
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\ref\IKProject.ViewModel.dll
+C:\Users\user\source\Workspaces\IKProject\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\bin\Debug\net5.0\IKProject.ViewModel.deps.json
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\bin\Debug\net5.0\IKProject.ViewModel.dll
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\bin\Debug\net5.0\ref\IKProject.ViewModel.dll
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\bin\Debug\net5.0\IKProject.ViewModel.pdb
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.csproj.AssemblyReference.cache
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.AssemblyInfoInputs.cache
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.AssemblyInfo.cs
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.csproj.CoreCompileInputs.cache
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.dll
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\ref\IKProject.ViewModel.dll
+D:\Windows 10\Desktop\IKProject\IKProject.ViewModel\obj\Debug\net5.0\IKProject.ViewModel.pdb
